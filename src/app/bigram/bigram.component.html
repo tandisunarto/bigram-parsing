@@ -1,0 +1,10 @@
+<div>
+	<mat-form-field class="bigram-form-field" appearance="fill">
+		<mat-label>Enter your sentence here</mat-label>
+		<input matInput name="input" [(ngModel)]="sentence">
+	</mat-form-field>
+</div>
+<div>
+	<button class="command-button" mat-raised-button (click)="onSubmitSentence()" color="primary">Submit</button>
+	<button class="command-button" mat-raised-button (click)="onClearField()" color="primary">Clear</button>
+</div>

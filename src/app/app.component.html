@@ -1,0 +1,5 @@
+<div class="content" role="main">
+  <h2><span>{{ title }}</span></h2>
+  <app-bigram (onBigramProcessed)="onBigramProcessed($event)"></app-bigram>
+  <app-histogram [data]="data" [message]="message"></app-histogram>
+</div>
